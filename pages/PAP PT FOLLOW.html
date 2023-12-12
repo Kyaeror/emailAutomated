@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Automation</title>
+</head>
+<body>
+    <form>
+        <label for = "lastName">Last Name:</label>
+        <input type = "text" id="lastName" name="lastName" required>
+        <label for = "Gender">Gender:</label>
+        <select name ="Gender" id="Gender">
+            <option value=""></option>
+            <option value="female">Female</option>
+            <option value="male">Male</option>
+        </select><br><br>
+        <label for = "Medication">Medication:</label>
+        <input type = "text" id="Medication" name="Medication" required><br><br>
+        <label for = "doctorLastName">MD's Last Name:</label>
+        <input type = "text" id="doctorLastName" name="doctorLastName" required>
+        <label for = "doctorGender">Gender:</label>
+        <!-- <input type = "text" id="doctorGender" name="doctorGender" required><br><br> -->
+        <select name ="doctorGender" id="doctorGender">
+            <option value=""></option>
+            <option value="female">Female</option>
+            <option value="male">Male</option>
+        </select><br><br>
+        <input id="submitButton" type="submit" value="Submit">
+    </form>
+    <br><br>
+    <div id="copyPaste">
+
+    </div>
+</body>
+    <script src="../javascript/script.js"></script>
+</html>
