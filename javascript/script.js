@@ -43,7 +43,7 @@ function doSomething (e){
     </ol>
     
     Once your application has been faxed, please call the number listed on the first page of the application to check its status and to arrange for delivery of your refills once it's approved. If you have any questions, please let us know.
-    
+    <br><br>
     Thanks!`
 }
 submitButton.onclick = doSomething
