@@ -7,6 +7,8 @@
 </head>
 <body>
     <form>
+        <label for = "firstName">First Name:</label>
+        <input type = "text" id="firstName" name="firstName" required>
         <label for = "lastName">Last Name:</label>
         <input type = "text" id="lastName" name="lastName" required>
         <label for = "Gender">Gender:</label>
@@ -16,23 +18,16 @@
             <option value="male">Male</option>
         </select><br><br>
         <label for = "Medication">Medication:</label>
-        <input type = "text" id="Medication" name="Medication" required><br><br>
+        <input type = "text" id="Medication" name="Medication" required>
+        <label for = "Cost">Cost:</label>
+        <input type = "text" id="Cost" name="Cost" required><br><br>
         <label for = "doctorFirstName">MD's First Name:</label>
         <input type = "text" id="doctorFirstName" name="doctorFirstName" required>
-        <label for = "doctorLastName">MD's Last Name:</label>
-        <input type = "text" id="doctorLastName" name="doctorLastName" required>
         <label for = "doctorGender">Gender:</label>
         <select name ="doctorGender" id="doctorGender">
             <option value=""></option>
             <option value="female">Female</option>
             <option value="male">Male</option>
-        </select><br><br>
-        <label for = "formSelection">Form: </label>
-        <select name ="formSelection" id="formSelection">
-            <option value=""></option>
-            <option value="form1">PAP Pt Follow</option>
-            <option value="form2">PAP We Follow</option>
-            <option value="form3">PAP We Follow</option>
         </select><br><br>
         <input id="submitButton" type="submit" value="Submit">
     </form>
@@ -41,5 +36,5 @@
 
     </div>
 </body>
-    <script src="./javascript/script.js"></script>
+    <script src="../javascript/newReferral.js"></script>
 </html>
